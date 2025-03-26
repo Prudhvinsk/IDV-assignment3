@@ -486,8 +486,16 @@ Year,Household Size,Average Monthly Income,Dwelling Unit Type
             legend: { position: 'bottom' }
           },
           scales: {
-            x: { type: getScaleType(xKey), title: { display: true, text: xKey } },
-            y: { type: getScaleType(yKey), title: { display: true, text: yKey } }
+            x: { 
+              type: getScaleType(xKey), 
+              title: { display: true, text: xKey },
+              ticks: xKey === "Household Size" ? { stepSize: 1, callback: (value) => Math.floor(value) } : {}
+            },
+            y: { 
+              type: getScaleType(yKey), 
+              title: { display: true, text: yKey },
+              ticks: yKey === "Household Size" ? { stepSize: 1, callback: (value) => Math.floor(value) } : {}
+            }
           }
         }
       });
