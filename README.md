@@ -10,4 +10,4 @@
 8. Back to dwelling unit type, as moving to private properties is considered a status symbol in Singapore, this data shows the differential increase over the years
 9. Also the gap between both HDB and private is more exponential with a higher household number
 10. This can have more data on household earning persons, show the difference and can take away more insights.
-11. I have added some filters to swap the x and y axes as option to get different graphs.
+11. The graph has some filters to swap the x and y axes as option to get different graphs.
