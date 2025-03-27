@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Singapore Household Income Insights: Multi-Year Analysis;</title>
+  <title>Singapore Household Income Insights: Multi-Year Analysis</title>
   <!-- Chart.js library -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <!-- PapaParse for CSV parsing -->
@@ -52,6 +52,7 @@
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05); 
       margin: 30px auto; 
       text-align: center; 
+      max-width: 1300px;
     }
     canvas { width: 100% !important; height: auto !important; }
     footer { 
@@ -144,6 +145,22 @@
     <canvas id="combinedChart"></canvas>
   </div>
 
+  <div class="container-text">
+    <h2>Key Insights</h2>
+    <ul>
+      <li>The range of average monthly incomes has increased steadily over the years; a comparison between the 2002/23 survey and the 2017/18 survey clearly shows a significant escalation in income levels.</li>
+      <li>It is generally observed that larger households tend to report higher monthly incomes, although this is not a consistent trend across all cases.</li>
+      <li>When examining the data for HDB flats, the income trend does not follow a strongly exponential pattern compared to that observed in private properties.</li>
+      <li>In the case of private properties, there are notable fluctuations in monthly income as the household size increases.</li>
+      <li>By filtering the graph according to household size, we can effectively compare monthly incomes across different household sizes and types of dwelling units.</li>
+      <li>The variation in monthly income among different household sizes is relatively minor in HDB flats, whereas private properties exhibit a more diverse range - particularly, condominiums tend to show significant differences for households with five or more members, and landed properties for those with three to four members.</li>
+      <li>These observations suggest a potential area of study: exploring the ratio of earning household members across different types of properties.</li>
+      <li>Focusing again on dwelling unit types, the data indicates that moving into private properties, which is often considered a status symbol in Singapore, is associated with a marked increase in income over the years.</li>
+      <li>Moreover, the gap in monthly incomes between HDB flats and private properties becomes more pronounced with larger household sizes, displaying a more exponential divergence.</li>
+      <li>Collecting additional data on the ratio of earning household members could provide further insights into the observed income differences, helping to deepen our understanding of income distribution across various dwelling types.</li>
+    </ul>
+  </div>
+  
   <footer>
     <p>Data retrieved from <a href="https://data.gov.sg/" target="_blank">data.gov.sg</a></p>
     <p>Ravi Prudhvi Naga Sai Kumar - 1009460</p>
